@@ -153,7 +153,7 @@ print "dotnet version"
 dotnet --version
 
 print "dotnet restore all dependencies"
-dotnet restore ${PROJECT_JSON_FILE} --no-cache
+dotnet restore --no-cache
 print "dotnet restore all dependencies completed"
 
 #dotnet pulish using project.json
